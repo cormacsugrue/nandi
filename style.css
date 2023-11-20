@@ -31,3 +31,33 @@ body > * {
     color: #E5E7EB;
     margin-left: 20px;
 }
+
+.hero {
+    display: flex;
+    gap: 40px;
+}
+
+.hero-image {
+    width: auto;
+    height: 200px;
+    align-self: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.btn-call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+}
