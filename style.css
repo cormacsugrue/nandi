@@ -12,7 +12,7 @@ body {
     align-items: center;
 }
 
-.hero, .footer {
+.hero, .header, .footer {
     background-color: #1F2937;
 }
 
