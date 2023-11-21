@@ -68,6 +68,13 @@ body > * {
     padding: 10px 36px;
     text-decoration: none;
     border-radius: 8px;
+}
 
+.card-section {
+    text-align: center;
+}
+
+.card-collection {
+    display: flex;
 }
 
