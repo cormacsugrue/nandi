@@ -73,13 +73,22 @@ body > * {
 .card-section {
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 120px;
 }
 
 .card-collection {
     display: flex;
     font-size: 18px;
     color: #6C747D;
-    gap: 20px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
 }
 
 h2 {
@@ -90,9 +99,11 @@ h2 {
 }
 
 .card-collection img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #3882F6;
-    border-radius: 18px;
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882F6;
+    border-radius: 14px;
+    display: block;
+    margin-bottom: 12px;
 }
 
