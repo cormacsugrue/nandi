@@ -72,9 +72,27 @@ body > * {
 
 .card-section {
     text-align: center;
+    padding-top: 40px;
 }
 
 .card-collection {
     display: flex;
+    font-size: 18px;
+    color: #6C747D;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    margin: 0 0 40px ;
+}
+
+.card-collection img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 18px;
 }
 
