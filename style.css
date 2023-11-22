@@ -11,38 +11,61 @@ body > * {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 20px;
     align-items: center;
     padding-bottom: 120px;
+    padding-right: 210px;
+    padding-left: 150px;
 }
 
 .hero, .header, .footer {
     background-color: #1F2937;
 }
 
+.header-link-container {
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 20px;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8 ;
+    display: block;
+    min-width: 500px;
+    margin-bottom: 40px;
+
+
 }
 
 .header a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7ebc4;
-    margin-left: 20px;
+    min-width: 140px;
 }
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     padding-bottom: 120px;
+    justify-content: space-evenly;
+
 }
 
 .hero-image {
-    width: auto;
-    height: 240px;
-    align-self: center;
+    height: 200px;
+    width: 700;
+    align-self: center; 
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.hero-text {
+    max-width: 480px;
 }
 
 .hero h1 {
@@ -147,7 +170,7 @@ h2 {
     background-color: #3882F6 ;
     justify-content:  space-evenly;
     flex-wrap: wrap;
-    width: 1100px;
+    width: 950px;
     min-width: 260px;
     border-radius: 8px;
     color: #F9FAF8;
@@ -157,14 +180,17 @@ h2 {
 
 .call-to-action-text {
     margin: 0px 30px 30px 30px;
+    margin-bottom: 20px;
 }
 
 .call-to-action-text p {
     color: #E5E7EB;
+    margin: 0;
 }
 
 .call-to-action-text h1 {
-    margin-top: 0px;
+    margin: 0px;
+
 }
 
 .call-to-action-container button.btn-sign-up{
